@@ -1,6 +1,11 @@
 import numpy as np
 
-class sipm(object): 
+class sipm(object):
+    
+    '''
+    Create an arbritrary number of waveforms containing a 
+    single positive-going pulse superposed on a random baseline.
+    '''
 
     def __init__(this, 
                 number_of_waveforms=1, 
