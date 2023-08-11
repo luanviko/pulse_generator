@@ -23,7 +23,7 @@ Generating a pulse can be as simple as:
 pulse_generator = sipm().create_waveforms()
 ```
 
-or, if you want to generate 20 waveforms with amplitude between 20 and 30,
+or, if you want to generate 10 waveforms with amplitude between 20 and 30,
 
 ```
 pulse_generator = sipm(number_of_waveforms=10, amplitude=[20, 30]).create_waveforms()
