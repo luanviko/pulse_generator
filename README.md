@@ -17,6 +17,7 @@ to simulate electronic noise.
 
 ![Example of waveform](/waveform.png)
 
+## Usage
 Generating a pulse can be as simple as:
 
 ```
@@ -28,6 +29,8 @@ or, if you want to generate 10 waveforms with amplitude between 20 and 30,
 ```
 pulse_generator = sipm(number_of_waveforms=10, amplitude=[20, 30]).create_waveforms()
 ```
+
+## Parameters
 
 This is a list of parameters you can give **sipm**:
 * **number_of_waveforms**: *integer* with the number of waveforms to be generated.
